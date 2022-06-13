@@ -6,8 +6,12 @@
     <groupId>com.loto</groupId>
     <artifactId>swagger-json</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <description>初始化生成Swagger JSON数据</description>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 
     <dependencies>
         <!--驱动包-->
